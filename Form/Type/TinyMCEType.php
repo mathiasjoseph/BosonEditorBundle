@@ -9,12 +9,9 @@
 namespace Boson\Bundle\EditorBundle\Form\Type;
 
 
-use Miky\Bundle\CategoryBundle\Provider\CategoryProvider;
-use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\FormBuilderInterface;
-use Symfony\Component\OptionsResolver\Options;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class TinyMCEType extends AbstractType
